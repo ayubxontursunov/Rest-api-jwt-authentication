@@ -2,6 +2,7 @@
 
 A secure Django REST Framework project providing full-featured user authentication and note management using JSON Web Tokens (JWT).
 
+
 ## 🚀 Features
 
 - ✅ User Registration with Image Upload
@@ -12,6 +13,7 @@ A secure Django REST Framework project providing full-featured user authenticati
 - 🔒 Public/Private Notes Handling
 - 🧪 API tested via Postman
 
+
 ## 📦 Tech Stack
 
 - **Backend:** Django, Django REST Framework
@@ -19,6 +21,7 @@ A secure Django REST Framework project providing full-featured user authenticati
 - **Database:** SQLite (default, can be switched)
 - **Media Handling:** File/Image uploads
 - **Validation:** Django Validators
+
 
 ## 📁 API Endpoints
 
@@ -36,6 +39,7 @@ A secure Django REST Framework project providing full-featured user authenticati
 | PATCH  | `/api/profile/update/`       | Update user profile              |
 | GET    | `/api/users/<int:pk>/notes`  | Get notes of a specific user     |
 
+
 ## 🧪 Sample Registration (Postman Raw JSON)
 
 ```json
@@ -48,6 +52,7 @@ A secure Django REST Framework project providing full-featured user authenticati
   "cover_photo": null
 }
 ```
+
 
 ## 🛠️ Setup Instructions
 
@@ -62,6 +67,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+
 ## 📂 Project Structure
 
 ```commandline
@@ -71,7 +77,10 @@ api/
 ├── serializer.py
 ├── urls.py
 ```
+
+
 ## 🧾 License
 MIT License — feel free to use and contribute!
+
 
 Made with ❤️ using Django & DRF
